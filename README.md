@@ -18,6 +18,10 @@ $ cd wp-content/themes
 $ git clone https://github.com/Tea23/woggle4wordpress
 ```
 
+Because the `fonts/` directory is ommitted from this source release due to the licensing of The Serif font, you should amend `fonts.css`, use Google Fonts or acquire a license for The Serif.
+
+If you are using the font for Scouting related media, you have an implied license for The Serif and you can contact your County or District media manager for a copy.
+
 ## Contributing
 Because I'm not a programmer or a web developer, some of this stuff is really ugly and bad. Pull requests welcome.
 
