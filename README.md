@@ -28,6 +28,8 @@ Because the `fonts/` directory is ommitted from this source release due to the l
 
 If you are using the font for Scouting related media, you have an implied license for The Serif and you can contact your County or District media manager for a copy.
 
+Be aware that this repo is kept in sync with changes made at [8thportsmouth.org.uk](https://8thportsmouth.org.uk).
+
 ## Contributing
 Because I'm not a programmer or a web developer, some of this stuff is really ugly and bad. Pull requests welcome.
 
@@ -38,3 +40,10 @@ Due to the presence of UK Scout Association logos, this theme should only be use
 
 ## Exclusions
 Excluded from this repository are the files for The Serif font due to their licensing.
+
+## Acknowledgements 
+Woggle4Wordpress originally developed by hawesWeb productions available at [iScout4Wordpress.org.uk](http://www.iscout4wordpress.org.uk/).
+
+[8th Portsmouth Scout Group](https://8thportsmouth.org.uk) for which the modifications have been made.
+
+[Linode](https://www.linode.com/?r=17f0c4ff3acf10a7121894fcb23eaf1e03f82308) for providing affordable hosting.
