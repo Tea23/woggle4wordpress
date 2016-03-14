@@ -10,6 +10,8 @@ Because this repo was initialised after changes had been made, a rudimentary dif
 
 `header.php` contains an even uglier script to generate a carousel of background images. This is currently not in use on the main website.
 
+The main difference between this and the original Woggle theme is the switch from a multiple content boxes scheme to a single container. This is fairly hacky but it looks nice, and web design is all about hacky. The switch *does* screw with 404 pages in a hilariously dramatic manner. I'll fix it some day.
+
 ## Usage
 You can clone this repo in its entirety into your `wp-content/themes` directory.
 
