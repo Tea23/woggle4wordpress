@@ -47,3 +47,5 @@ Woggle4Wordpress originally developed by hawesWeb productions available at [iSco
 [8th Portsmouth Scout Group](https://8thportsmouth.org.uk) for which the modifications have been made.
 
 [Linode](https://www.linode.com/?r=17f0c4ff3acf10a7121894fcb23eaf1e03f82308) for providing affordable hosting.
+
+The Serif font designed by [Lucas de Groot](http://www.lucasfonts.com/fonts/theserif/). Used under license from The Scout Association.
