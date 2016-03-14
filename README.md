@@ -12,3 +12,6 @@ Because this repo was initialised after changes had been made, a rudimentary dif
 
 ## Ugliness
 Because I'm not a programmer or a web developer, some of this stuff is really ugly and bad. Pull requests welcome.
+
+## Exclusions
+Excluded from this repository are the files for The Serif font due to their licensing.
