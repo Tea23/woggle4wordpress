@@ -5,6 +5,8 @@ The original theme is licensed under the GNU GPL but no version is specified. Th
 
 Files in the `scripts/` directory are licensed under various free software licenses. See those individual files for more information.
 
+![Screenshot](screenshot.png)
+
 ## Changes
 Because this repo was initialised after changes had been made, a rudimentary diff file has been supplied of `style.css`.
 
