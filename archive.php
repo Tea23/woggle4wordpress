@@ -32,12 +32,12 @@
 
 	<?php /* If this is a tagged archive */ } elseif (is_tag()) { ?>	<h2 class="title">Articles tagged with: <?php single_tag_title(); ?></h2>
 
- 	<?php /* If this is a daily archive */ } elseif (is_day()) { ?>	<h2 class="title">Articles Archive for <?php the_time('j F Y'); ?></h2>
+ 	<?php /* If this is a daily archive */ } elseif (is_day()) { ?>	<h2 class="title">Articles Archive for <?php get_option('date_format'); ?></h2>
 
- 	<?php /* If this is a monthly archive */ } elseif (is_month()) { ?><h2 class="title">Articles Archive for <?php the_time('F Y'); ?></h2>
+ 	<?php /* If this is a monthly archive */ } elseif (is_month()) { ?><h2 class="title">Articles Archive for <?php get_option('date_format'); ?></h2>
  	
 	<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-	<h2 class="title">Articles Archive for Year <?php the_time('Y'); ?></h2>
+	<h2 class="title">Articles Archive for Year <?php get_option('date_format'); ?></h2>
 
  	<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 	<h2 class="title">The Archives</h2>
@@ -49,7 +49,7 @@
 	
 			<div class="clearfloat">
 	<div class="title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></div>
-	<div class="meta"><?php the_time('j M Y') ?></div>	
+	<div class="meta"><?php get_option('date_format') ?></div>	
 	
 	<div class="spoiler">
 	

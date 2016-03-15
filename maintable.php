@@ -37,7 +37,7 @@
 	
       	<?php while (have_posts()) : the_post(); ?>
 <div class="info2"><div style="padding-top="10px"><h3><a href="<?php the_permalink() ?>" rel="bookmark" class="title"><?php the_title(); ?></h3></a>
-<div class="meta2"><?php the_time('j M Y') ?></div></div>
+<div class="meta2"><?php get_option('date_format') ?></div></div>
 	<?php $values = get_post_custom_values("Image");
 	if (isset($values[0])) { ?>
       <b><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"></b>

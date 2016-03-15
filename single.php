@@ -32,7 +32,7 @@
 
 <h2 class="title"> <?php the_title(); ?></h2>
 <div id="stats">
-<span><?php the_time('j F Y') ?></span>
+<span><?php get_option('date_format') ?></span>
 </div>
 			
 		<div class="entry clearfloat">

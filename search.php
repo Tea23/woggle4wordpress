@@ -37,7 +37,7 @@
 	<div class="clearfloat">
 	<h3 class="cat_title"><?php the_category(', '); ?> &raquo;</h3>
 	<div class="title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></div>
-	<div class="meta">[<?php the_time('j M Y') ?> | <?php comments_popup_link('No Comment', 'One Comment', '% Comments');?> | <?php if(function_exists('the_views')) { the_views(); } ?>]</div>	
+	<div class="meta">[<?php get_option('date_format') ?> | <?php comments_popup_link('No Comment', 'One Comment', '% Comments');?> | <?php if(function_exists('the_views')) { the_views(); } ?>]</div>	
 	
 	<div class="spoiler">
 	<?php	$values = get_post_custom_values("Image");
