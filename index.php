@@ -27,14 +27,14 @@
 <div id="top" class="clearfloat">
 <?php 	/* Widgetized sidebar, if you have the plugin installed. */ 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(10) ) : ?> 
 
-<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/top.gif">
+<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/top.gif">
 <?php endif; ?>
 </div>
 
 <div id="side" class="clearfloat">
 <?php 	/* Widgetized sidebar, if you have the plugin installed. */ 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(9) ) : ?> 
 
-<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/side.gif">
+<img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/side.gif">
 <?php endif; ?>
 </div>
 

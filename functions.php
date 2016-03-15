@@ -42,6 +42,14 @@ remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 add_filter('get_the_excerpt', 'custom_trim_excerpt');
 add_filter( 'wpcf7_support_html5_fallback', '__return_true' );
 
+  add_filter( 'wp_title', 'set_page_title' );
+  function set_page_title( $orig_title ) { 
+    $title = get_bloginfo( 'name' );
+    //Here I can echo the result and see that it's actually triggered
+//    return $title;  
+	echo get_bloginfo('name'); echo " | ", get_bloginfo('description'); echo " &raquo; ", get_the_title();
+  }
+
 function custom_trim_excerpt($text) { // Fakes an excerpt if needed
 global $post;
 	if ( '' == $text ) {
@@ -121,3 +129,4 @@ remove_action( 'admin_print_styles', 'print_emoji_styles' );
 ?>
 
 <?php if(function_exists('chi_display_header')) { chi_display_header(); } ?>
+

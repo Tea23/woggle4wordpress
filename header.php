@@ -68,7 +68,7 @@ else
 <meta name="keywords" content="Scouting, Portsmouth Scouts, Portsmouth, Everyday Fun, Everyday Challenge, Everyday Adventure, Scouts, 8th Portsmouth" />
 <meta name="description" content="The 8th Portsmouth is a Scout Group in Southsea which provides fun and adventure to any child from the ages 6 - 14." />
 
-<title><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?> <?php if ( is_single() ) { ?> &raquo; Archive <?php } ?> <?php wp_title(); ?></title>
+<title><?php wp_title(); ?></title>
 
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
 
@@ -77,8 +77,8 @@ else
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 
-<link rel="icon" href="<?php echo bloginfo('stylesheet_directory'); ?>/images/favicon.ico" />
-<link rel="shortcut icon" href="<?php echo bloginfo('stylesheet_directory'); ?>/images/favicon.ico" />
+<link rel="icon" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/favicon.ico" />
+<link rel="shortcut icon" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/favicon.ico" />
 
 <?php wp_head(); ?>
 <style type="text/css">
@@ -97,10 +97,10 @@ background-position: right;*/
 
 <div class="clearfloat">
 	<div id="logo" class="left">
-	<a href="<?php echo get_option('home'); ?>/"><h1 class="name"><?php bloginfo('name'); ?></h1><h1 class="desc"><?php bloginfo('description'); ?></h1></a>
+	<a href="<?php echo home_url(); ?>/"><h1 class="name"><?php bloginfo('name'); ?></h1><h1 class="desc"><?php bloginfo('description'); ?></h1></a>
 </div>
 	<div class="right">
-<a href="http://scouts.org.uk" target="_blank"><img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/scout-logo-small.jpg" alt="Scouts Logo" /></a><br />
+<a href="http://scouts.org.uk" target="_blank"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/scout-logo-small.jpg" alt="Scouts Logo" /></a><br />
 	</div>
 
 </div>

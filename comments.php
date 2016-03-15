@@ -48,7 +48,7 @@
 	
 <?php
 $isByAuthor = false;
-if($comment->comment_author_email == get_the_author_email()) {
+if($comment->comment_author_email == get_the_author_meta('email') {
 $isByAuthor = true;
 }?>
 		<div class="commentlist">

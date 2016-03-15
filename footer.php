@@ -1,5 +1,5 @@
 <?php
-/* Woggle 4 Wordpress Remix
+/* Woggle 4 Wordpress Remix 
  *
  * Woggle 4 Wordpress Remix is a free Wordpress theme derived from Woggle 4 Wordpress
  * developed by hawesWeb Productions available at iscout4wordpress.org.uk
@@ -27,8 +27,8 @@
 <div id="footer"><?php wp_footer(); ?>
 
 <div id="footerall">
-<div id="footer2"><a href="<?php echo get_option('home'); ?>/">Home</a><br />
-<a href="<?php echo get_option('home'); ?>/join">Join in</a><br />(<a href="<?php echo get_option('home'); ?>/beavers">Beavers</a> &bull; <a href="<?php echo get_option('home'); ?>/cubs">Cubs</a> &bull; <a href="<?php echo get_option('home'); ?>/scouts">Scouts</a>) <br />
+<div id="footer2"><a href="<?php echo home_url(); ?>/">Home</a><br />
+<a href="<?php echo home_url(); ?>/join">Join in</a><br />(<a href="<?php echo home_url(); ?>/beavers">Beavers</a> &bull; <a href="<?php echo home_url(); ?>/cubs">Cubs</a> &bull; <a href="<?php echo home_url(); ?>/scouts">Scouts</a>) <br />
 <a href="http://scouts.org.uk">UK Scout Association</a><br />
 <a href="http://hampshirescouts.org.uk">Hampshire County Scouts</a><br />
 <a href="http://portsmouthscouts.org.uk">Portsmouth Scouts</a></div>

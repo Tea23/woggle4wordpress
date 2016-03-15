@@ -26,7 +26,7 @@
 
 	<?php if (have_posts()) : ?>
 	
-	<span class="breadcrumbs"><a href="<?php echo get_option('home'); ?>/">Home</a> &raquo; Search</span>
+	<span class="breadcrumbs"><a href="<?php echo home_url(); ?>/">Home</a> &raquo; Search</span>
 
 	<h2 class="title">Search <strong>Results</strong></h2>
 
@@ -43,7 +43,7 @@
 	<?php	$values = get_post_custom_values("Image");
 	if (isset($values[0])) { ?>
       <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>">
-	<img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=/<?php
+	<img src="<?php echo esc_url(get_template_directory_uri() ); ?>/scripts/timthumb.php?src=/<?php
 $values = get_post_custom_values("Image"); echo $values[0]; ?>&w=150&h=150&zc=1&q=100"
 alt="<?php the_title(); ?>" class="left" width="150px" height="150px"  /></a>
       <?php } ?>
@@ -71,7 +71,7 @@ alt="<?php the_title(); ?>" class="left" width="150px" height="150px"  /></a>
 	<?php else : ?>
 	
 
-	<span class="breadcrumbs"><a href="<?php echo get_option('home'); ?>/">Home</a> &raquo; Not Found</span>
+	<span class="breadcrumbs"><a href="<?php echo home_url(); ?>/">Home</a> &raquo; Not Found</span>
 	<h2 class="title">No posts found. Try a different search?</h2>
 	
 

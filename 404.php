@@ -26,7 +26,7 @@
 
 	<div class="post">
 
-	<span class="breadcrumbs"><a href="<?php echo get_option('home'); ?>/">Home</a> &raquo; 404 Not Found</span>
+	<span class="breadcrumbs"><a href="<?php echo home_url(); ?>/">Home</a> &raquo; 404 Not Found</span>
 
 	<h2 class="title">Error 404 - Not Found</h2>
 

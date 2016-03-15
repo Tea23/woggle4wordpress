@@ -20,9 +20,9 @@
  */
 ?>
 
-<form method="get" id="searchform" class="left" action="<?php bloginfo('url'); ?>/">
+<form method="get" id="searchform" class="left" action="<?php esc_url( home_url() ); ?>/">
 <div>
-<input type="text" value="Search" value="<?php the_search_query(); ?>" name="s" id="s" onfocus="this.value=''" title="Enter the terms you wish to search for." /><input type="image" src="<?php echo bloginfo('stylesheet_directory'); ?>/images/magnify.gif" id="searchsubmit" />
+<input type="text" value="Search" value="<?php the_search_query(); ?>" name="s" id="s" onfocus="this.value=''" title="Enter the terms you wish to search for." /><input type="image" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/images/magnify.gif" id="searchsubmit" />
 
 </div>
 </form>
