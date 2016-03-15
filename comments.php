@@ -110,7 +110,7 @@ $isByAuthor = true;
 
 <?php else : ?>
 
-<p>Add your comment below, or <a href="<?php trackback_url(true); ?>" rel="trackback">trackback</a> from your own site. You can also <?php comments_rss_link('subscribe to these comments'); ?> via RSS.</p>
+<p>Add your comment below, or <a href="<?php trackback_url(true); ?>" rel="trackback">trackback</a> from your own site. You can also <?php post_comments_feed_link('subscribe to these comments'); ?> via RSS.</p>
 
 <p>Be nice. Keep it clean. Stay on topic. No spam.</p>
 
