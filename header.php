@@ -70,8 +70,6 @@ else
 
 <title><?php wp_title(); ?></title>
 
-<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
-
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -91,7 +89,7 @@ background-position: right;*/
 -->
 </style>
 </head>
-<body>
+<body <?php body_class( $class ); ?>>
 
 <div id="head" class="clearfloat">
 
