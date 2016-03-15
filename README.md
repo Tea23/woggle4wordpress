@@ -35,6 +35,13 @@ Because I'm not a programmer or a web developer, some of this stuff is really ug
 
 The theme files contain some content specifically for the 8th Portsmouth Scouts website, particularly in the footer. Be aware of this if you use it for your own site.
 
+## Wishlist
+The theme as it stands is far from perfect. It'd be awesome if it had these things:
+
+ * Fully responsive layout - variable widths for mobile / different screen sizes
+ * Configurable footer / social media links (secondary menu?)
+ * A port to a better CMS that isn't as terrible as Wordpress
+
 ## Logos
 Due to the presence of UK Scout Association logos, this theme should only be used unmodified for UK Scouting, Scout Association affiliated Scouting-related media (like Group websites).
 
