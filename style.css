@@ -300,6 +300,11 @@ margin-bottom:-10px;
 letter-spacing: 0.1px;
 }
 
+.wpcf7-form {
+	border: 1px #F2F2F2 solid;
+	padding: 15px;
+}
+
 .desc {
 	font:3.5em;
 	font-family: "The Serif", serif;

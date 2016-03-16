@@ -71,6 +71,9 @@ global $post;
 	return $text;
 }
 
+if ( ! isset( $content_width ) ) {
+	$content_width = 1000;
+}
 
 ?>
 <?php 

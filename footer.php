@@ -43,21 +43,6 @@ Hosted on a <a href="https://www.linode.com/?r=17f0c4ff3acf10a7121894fcb23eaf1e0
 </div>
 
 </div>
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//warhaggis.com:8071/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 2]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//warhaggis.com:8071/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
 
 </body>
 </html>
