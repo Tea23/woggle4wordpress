@@ -105,10 +105,11 @@ background-position: right;*/
 
 <div id="navbar" class="clearfloat">
 <div id="page-bar" class="left clearfloat">
-
-
 <?php wp_nav_menu( array( 'theme_location' => 'menu-1' ) ); ?>
-<ul id="login" style="float:right"><li><a href="https://twitter.com/8thPortsmouth"><img style="float:left;margin-right:5px;" src="/images/tw.png" alt="TW" /> Twitter</a></li><li><a href="https://www.facebook.com/8thPortsmouth"><img style="float:left;margin-right:5px;" src="/images/fb.png" alt="FB" /> Facebook</a></li><li><a href="https://8thportsmouth.org.uk/members-area">Members Area</a></li></ul>
+
+<ul id="login" style="float:right">
+<?php wp_nav_menu( array( 'theme_location' => 'menu-2' ) ); ?>
+</ul>
 
 
 </div>
