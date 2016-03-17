@@ -36,25 +36,26 @@
 
 // REQUEST_URI is /page
 $path = $_SERVER['REQUEST_URI'];
+$url = get_stylesheet_directory_uri();
 
 // Define pages to have custom headers
 	$search_array = [
 
 		// format
-		// "/page" => 'full html',
+		// "/page" => 'image',
 
-		"/beavers" => '<img src="/images/beavers.jpg" alt="Beavers" />',
-		"/cubs" => '<img src="/images/cubs.jpg" alt="Cubs" />',
-		"/scouts" => '<img src="/images/scouts.jpg" alt="Scouts" />',
-		"/volunteer" => '<img src="/images/gryllykins.png" alt="Bear Grylls volunteers... could you?" />'
+		"/beavers" => 'beavers.jpg',
+		"/cubs" => 'cubs.jpg',
+		"/scouts" => 'scouts.jpg',
+		"/volunteer" => 'gryllykins.png'
 
 	];
 
 // If $search_array matches $path, give the value as page title
 
 	if (array_key_exists($path, $search_array)) {
-		echo $search_array[$path];
-	}
+		echo '<img src=' , $url , '/images/headers/' , $search_array[$path]; echo ' alt="' , the_title(); echo '" />';
+ 	}
 
 // If it doesn't, just do the regular title
 
