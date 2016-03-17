@@ -53,7 +53,7 @@ $path = $_SERVER['REQUEST_URI'];
 // If $search_array matches $path, give the value as page title
 
 	if (array_key_exists($path, $search_array)) {
-		echo '<img src=' , get_stylesheet_directory_uri() , '/images/headers/' , $search_array[$path]; echo ' alt="' , the_title(); echo '" />';
+		echo '<img src=' . get_stylesheet_directory_uri() . '/images/headers/' . $search_array[$path] . ' alt="' . the_title(null, null, false) . '" />';
  	}
 
 // If it doesn't, just do the regular title
