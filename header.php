@@ -82,9 +82,7 @@ else
 <style type="text/css">
 <!--
 body{
-/*background: url(<?php echo get_stylesheet_directory_uri(); , "/images/bg/" , $selectedBg; ?>) no-repeat fixed <?php echo $selectedBgPos; ?> right;
-background-attachment: fixed;
-background-position: right;*/
+background: url(<?php echo get_stylesheet_directory_uri() , "/images/bg/" , $selectedBg; ?>) no-repeat fixed <?php echo $selectedBgPos; ?> right;
 }
 -->
 </style>
