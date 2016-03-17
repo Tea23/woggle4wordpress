@@ -32,26 +32,26 @@
 // @contributor Daniel Evans
 // @license https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL 3.0
 
-$host = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$host = $_SERVER['REQUEST_URI'];
 
 // Ifs and elseifs give us explicitly defined backgrounds
-if($host == 'area51.8thportsmouth.org.uk/beavers')
+if($host == '/beavers')
 	{ 
-		$selectedBg = ('//8thportsmouth.org.uk/images/bg/beaverchars.png');
+		$selectedBg = ('beaverchars.png');
 	}
 
-/*elseif($host == '8thportsmouth.org.uk/anyotherpage')
+/*elseif($host == '/anyotherpage')
 	{
-		$selectedBg = ('//animage');
+		$selectedBg = ('animage');
 	}*/
 
 // Array of backgrounds for non-defined pages
 else
 	{
 	$availableBGs = [
-		["bg" => "//8thportsmouth.org.uk/images/bg/rucksack.jpg", "position" => "bottom"],
-		["bg" => "//8thportsmouth.org.uk/images/bg/grylls.png", "position" => "bottom"],
-		["bg" => "//8thportsmouth.org.uk/images/bg/abseil.jpg", "position" => "top"]
+		["bg" => "rucksack.jpg", "position" => "bottom"],
+		["bg" => "grylls.png", "position" => "bottom"],
+		["bg" => "abseil.jpg", "position" => "top"]
 	];
 
 		// Assign backgrounds a number, pick a random one and then define
@@ -82,7 +82,7 @@ else
 <style type="text/css">
 <!--
 body{
-/*background: url(<?php echo $selectedBg; ?>) no-repeat fixed bottom right;
+/*background: url(<?php echo get_stylesheet_directory_uri(); , "/images/bg/" , $selectedBg; ?>) no-repeat fixed <?php echo $selectedBgPos; ?> right;
 background-attachment: fixed;
 background-position: right;*/
 }
