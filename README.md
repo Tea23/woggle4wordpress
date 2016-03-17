@@ -9,12 +9,14 @@ Files in the `images/` directory, with some exceptions, remain the legal and int
 
 ![Screenshot](screenshot.png)
 
-## Changes
+## Main differences from the original Woggle
 Because this repo was initialised after changes had been made, a rudimentary diff file has been supplied of `style.css`.
 
 `main.php` contains a new (ugly) script to replace page headers (`the_title()`) with arbitrary content (for example an image).
 
 `header.php` contains an even uglier script to generate a carousel of background images. This is currently not in use on the main website.
+
+The "members login" link has been moved to a registered menu, `menu-2` with id `login`.
 
 The main difference between this and the original Woggle theme is the switch from a multiple content boxes scheme to a single container. This is fairly hacky but it looks nice, and web design is all about hacky. The switch *does* screw with 404 pages in a hilariously dramatic manner. I'll fix it some day.
 
