@@ -1,7 +1,7 @@
 /*  
 Theme Name: Woggle 4 WordPress Remix
 Theme URI: https://8thportsmouth.org.uk
-Description: Woggle 4 WordPress has been designed for the use of UK Scouters and Scouting organisations.
+Description: Woggle 4 WordPress Remix has been designed for the use of UK Scouters and Scouting organisations.
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -646,7 +646,7 @@ padding: 0px 10px;
 	}
 
 #content h2.title {
-	font:4.5em "The Serif", Verdana;
+	font:4.0em "The Serif", Verdana;
 color:rgb(132,164,11);
 font-weight:normal;
 	letter-spacing:-0.05em;
