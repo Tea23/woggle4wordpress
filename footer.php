@@ -36,7 +36,7 @@
 <div id="copyright">All site content, except where otherwise noted is published under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CreativeCommons Attribution-ShareAlike 4.0</a><br />
 All photographs are &copy; 8th Portsmouth Scout Group and cannot be used elsewhere without expressed permission<p>
 
-<a href="//8thportsmouth.org.uk/privacy-policy">Privacy policy & cookie information</a><br />
+<a href="//8thportsmouth.org.uk/privacy-policy">Privacy policy &amp; cookie information</a><br />
 Website theme based on <a href="http://www.iscout4wordpress.org.uk">Woggle</a> by <a href="http://www.hawesweb.co.uk">hawesWeb Productions</a><br />
 Theme source code is available on <a href="https://gitlab.com/Tea23/woggle4wordpress">Gitlab</a> licensed under the GNU GPL 3 or later.<br />
 Hosted on a <a href="https://www.linode.com/?r=17f0c4ff3acf10a7121894fcb23eaf1e03f82308">Linode VPS</a></p></div>
